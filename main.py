@@ -83,7 +83,8 @@ class MainGame:
 
 
             screen.blit(pygame.image.load("firetower_a.png").convert_alpha(),(45 , 420))
-
+            fireprice = smallfont.render("$20" , True , (0, 0 , 0))
+            screen.blit(fireprice , (100 , 430))
 
             pygame.display.flip()
             clock.tick(60)
